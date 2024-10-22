@@ -1,0 +1,78 @@
+body{
+    background-color: #555;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#weather{
+    height: 550px;
+    width: 450px;
+    background: linear-gradient(135deg,#02fbb9,#5a588b)  ;
+    margin:100px auto;
+    border-radius: 50px;
+    padding: 25px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 60px grey;
+}
+#search {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 5px;
+}
+#search>input{
+    width:75%;
+    margin-top: 5px;
+    border-radius: 50px;
+    padding-left: 20px;
+    font-size: 20px;
+    height: 50px;
+    border: none;
+}
+#search>input:focus{
+    outline: none;
+}
+#search>button{
+    background-color: white;
+    height: 50px;
+    margin-top: 6px;
+    padding: 8px 10px;
+    border-radius: 50%;
+    border: none;
+    /* box-shadow: 5px 5px 20px  black; */
+}
+#search>button>img{
+    width:100% ;
+    height:100% ;
+}
+#main{
+    text-align: center;
+    color:white;
+}
+#main>img{
+    height:180px ;
+    width: 180px;
+}
+#main>#temp{
+    font-size: 45px;
+}
+#main>#cityname{
+    font-size: 40px;
+}
+#container,.row{
+    display: flex;
+    justify-content: space-around;
+}
+.row>img{
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.row>div>p{
+    font-size: 20px;
+    /* background-color: red; */
+    margin: 0;
+}
+#humidity,#wind{
+    font-size: 30px;
+}
